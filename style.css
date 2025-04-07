@@ -19,3 +19,22 @@ h1 {
     color: #E5E7EB;
 
 }
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap:10px;
+
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.link {
+   
+}

@@ -81,7 +81,9 @@ button {
     display: flex;
     margin-top: 30px;
     flex-direction: column;
-    padding: 10px 200px; /* create 10px space vertically and 180px horizontally */
+    padding: 0px 200px; /* create 50px space vertically and 180px horizontally */
+    margin-bottom: 80px;
+    gap: 20px;
 }
 h2 {
     display: flex;
@@ -123,4 +125,24 @@ h2 {
     color: #1f2937;
     margin-bottom: 20px;
 
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB ;
+    padding: 100px 380px;
+    gap: 10px;
+   
+}
+#testimonial {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+
+}
+#author {
+    font-weight: 700;
+    text-align: end;
 }

@@ -65,7 +65,7 @@ button {
     background-color: #3882f6;
     color: #F9FAF8;
     text-decoration: none;
-    border: 10px;
+    border: 1px;
     font-size: 14px;
     padding: 8px 30px;
     border-radius: 10px;
@@ -145,4 +145,32 @@ h2 {
 #author {
     font-weight: 700;
     text-align: end;
+}
+.part4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 40px 150px;
+}
+
+h3,p {
+    display: flex;
+    color: #F9FAF8;
+    margin: 0;
+}
+#signup2 {
+    display: flex;
+    border: 1px solid #F9FAF8;
+    align-self: center;
+}
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 30px 150px;
+    
 }
